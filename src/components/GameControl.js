@@ -38,13 +38,12 @@ const GameControl = (props) => {
 };
 
 const ControlDiv = styled.div`
-  ${"" /* background-color: red; */}
   text-align: center;
 `;
 
 const ControlSpan = styled.span`
-  margin: 0 30px 0 0;
-  font-size: 28px;
+  padding: 55px 30px 55px 0; 
+  font-size: 30px;
   font-weight: bold;
   color: white;
 `;
