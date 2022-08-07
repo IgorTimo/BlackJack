@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 
 const Exceeds21 = (props) => {
+  
 return (
     <ControlDiv>
-        <ControlSpan>Your cards exceeds 21! You loose!</ControlSpan>
+        <ControlSpan>Your cards exceeds 21! You loose {props.bet}! Your balance: {props.balance}</ControlSpan>
         <ControlButton onClick={() => {props.onTryAgainClick()}}>Try again</ControlButton>
     </ControlDiv>
   );
